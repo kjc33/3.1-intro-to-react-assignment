@@ -1,5 +1,5 @@
 import React from "react";
-import HEADSHOTIMG from "../assets/mystery-man.png";
+import HEADSHOT_IMG from "../assets/mystery-man.png";
 import About from "./About";
 import Contact from "./About";
 import Person from "./Person";
@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <>
       <div className="profile-wrapper">
-        <Headshot imgSrc={HEADSHOTIMG} imgAlt="Mystery Man" imgWidth={250} imgHeight={250} />
+        <Headshot imgSrc={HEADSHOT_IMG} imgAlt="Mystery Man" imgWidth={250} imgHeight={250} />
         <Person name="John Smith" position="Software Engineer" />
       </div>
       <div className="card">
